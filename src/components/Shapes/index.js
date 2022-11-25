@@ -1,12 +1,10 @@
 import { useCallback, useState } from 'react';
 import ReactFlow, { addEdge, applyEdgeChanges, applyNodeChanges } from 'reactflow';
-import 'reactflow/dist/style.css';
-
 import Circle from './TextUpdaterNode.js';
 import Triangle from './TringleNode.js';
 import Trapezoid from './Trapezoid.js';
 import Rectangle from './Rectangle.js';
-
+import 'reactflow/dist/style.css';
 import './text-updater-node.css';
 
 const rfStyle = {
