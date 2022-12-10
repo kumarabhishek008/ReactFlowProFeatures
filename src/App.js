@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import ShapeFlow from './components/Shapes';
 import AddButton from './components/AddButton';
+import ReactDragNDrop from './components/ReactDragNdrop'
 
 class ErrorBoundary extends React.Component {
   constructor(props) {
@@ -31,8 +32,9 @@ class ErrorBoundary extends React.Component {
 function App() {
   return (
     <ErrorBoundary>
+      <ReactDragNDrop/>
         {/* <ShapeFlow/> */}
-        <AddButton/>
+        {/* <AddButton/> */}
     </ErrorBoundary>
   );
 }
