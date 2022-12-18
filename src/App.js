@@ -32,8 +32,8 @@ class ErrorBoundary extends React.Component {
 function App() {
   return (
     <ErrorBoundary>
-      <ReactDragNDrop/>
-        {/* <ShapeFlow/> */}
+      {/* <ReactDragNDrop/> */}
+        <ShapeFlow/>
         {/* <AddButton/> */}
     </ErrorBoundary>
   );
